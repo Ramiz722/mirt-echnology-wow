@@ -1,0 +1,694 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* Стили для кнопки выбора цвета */
+.color-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+}
+
+.blue {
+  background-color:#CCE0F0 ;
+}
+
+.green {
+  background-color: #525F4F;
+}
+
+.black {
+  background-color: #191816;
+}
+.darkblue {
+  background-color: #0047FF;
+}
+.whiteblue {
+  background-color: #A3BCFF;
+}
+/* Активный класс для кнопки выбора цвета */
+.active-border {
+  box-shadow: 0px 0px 0px 3px #fe9b07;
+  /* border: 5px solid #fe9b07; */
+}
+.header{
+  margin-top: 0%;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 3%;
+}
+.menu a{
+text-decoration: none;
+color: black;
+margin-right: 40px;
+}
+.menu{
+  
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", serif;
+font-optical-sizing: auto;
+font-style: normal;
+}
+.buttons{
+  display: flex;
+  justify-content: end;
+  margin-right: 6%;
+}
+.buttons img{
+  margin-right: 20px;
+}
+.text{
+  display:flex;
+  background:#C8DDED ;
+  border-radius: 50px;
+}
+.textheader{
+  margin-top: 30px;
+  width: 35%;
+  margin-left: 4%;
+}
+.textheader h1{
+  font-size: 68px;
+}
+.textheader p{
+  font-size: 20px;
+}
+.textheader button{
+font-size: 20px;
+border-radius: 12px;
+width: 131px;
+height: 64px;
+}
+.photo{
+  margin-left: 18%;
+}
+.prosto{
+  display:flex;
+ align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+.prostoheader{
+  
+  width: 50%;
+  height: 350px;
+  margin-right: 5%;
+  background:#C9C8ED ;
+  border-radius: 50px;
+  margin-right: 2%;
+}
+  .prostoheader2{
+    width: 50%;
+    height: 350px;
+    background-color: #FFFCB6;
+    border-radius: 50px;
+    margin-right: 2%;
+  }
+  .popular{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    width: 16%;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-right: 40px;
+  margin-right: 26px;
+}
+.priceCard{
+    display: flex;
+    justify-content: space-between;
+}
+.cards button{
+    width: 90%;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    height: 32px;
+}
+.headPopular{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headPopular p{
+    font-size: 54px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+.headPopular img{
+    width: 114px;
+    height: 48px;
+}
+
+/* ----------------- */
+.prosto{
+    display:flex;
+   align-items: center;
+    justify-content: center;
+  }
+  .prostoheader{
+    
+    width: 45%;
+    height: 350px;
+    margin-right: 5%;
+    background:#C9C8ED ;
+    border-radius: 50px;}
+    .prostoheader2{
+      width: 45%;
+      height: 350px;
+      background-color: #FFFCB6;
+      border-radius: 50px;
+    }
+    body{
+      background-color: #F1EFE4;
+    }
+    .prostoheader h3{
+      font-size: 36px;
+      padding-top: 7%;
+      margin-left: 5%;
+    }
+    .prostoheader p{
+      font-size: 24px;
+      margin-left: 5%;
+      padding-top: 5%;
+    }
+    .prostoheader button{
+      background-color:#1F222E ;
+      color: white;
+      width: 156px;
+      height: 64px;
+      border-radius: 12px;
+      margin-left: 5%;
+    }
+    .prostoheader2 h3{
+      font-size: 36px;
+      margin-left: 5%;
+      padding-top: 7%;
+    }
+    .prostoheader2 p{
+      font-size: 24px;
+      margin-left: 5%;
+      padding-top: 5%;
+    }
+    .prostoheader2 button{
+      background-color:#1F222E ;
+      color: white;
+      width: 156px;
+      height: 64px;
+      border-radius: 12px;
+      margin-left: 5%;
+    }
+    .container button1{
+      background-color: black;
+    }
+    .prostoheader{
+      border-radius: 50px;
+    }
+    .normal{
+      display:flex;
+     align-items: center;
+      justify-content: center;
+    }
+    .normalheader{
+      width: 416px;
+      height: 284px;
+      background: #FFFFFF;
+      border-radius: 32px;
+      margin-right: 2%;
+    }
+      .normalheader2{
+        width: 416px;
+        height: 284px;
+        background-color: #FFFFFF;
+        border-radius: 32px;
+      }
+      .normalheader3{
+        width: 416px;
+        height: 284px;
+        background-color:#FFFFFF ;
+        border-radius: 32px;
+        margin-left: 2%;
+      }
+      .normalheader h3{
+        font-size: 28px;
+        padding-top: 7%;
+        margin-left: 5%;
+      }
+      .normalheader p{
+        font-size: 20px;
+        margin-left: 5%;
+        padding-top: 5%;
+      }
+      .normalheader2 h3{
+        font-size: 28px;
+        padding-top: 7%;
+        margin-left: 5%;
+      }
+      .normalheader2 p{
+        font-size: 20px;
+        margin-left: 5%;
+        padding-top: 5%;
+      }
+      .normalheader3 h3{
+        font-size: 28px;
+        padding-top: 7%;
+        margin-left: 5%;
+      }
+      .normalheader3 p{
+        font-size: 20px;
+        margin-left: 5%;
+        padding-top: 5%;
+      }
+      .black-btn{
+      background-color: black;
+  width: 100%;
+  border: black;
+}
+.card{
+  border-color: #F1EFE4 ;
+  border-radius: 15px;
+}
+.size{
+  border-radius: 20px;
+}
+.headerCatalog{
+  font-size: 54px;
+  margin-bottom: 20px;
+}
+.Category{
+  margin-bottom: 30px;
+}
+.more{
+  font-size: 28px;
+  height: 90px;
+  margin-bottom: 30px;
+}
+.headnormal{
+  font-size: 51px;
+  margin-left: 3%;
+}
+.nout{
+  width: 215px;
+}
+.applewatch{
+  width: 228px;
+}
+.menu a{
+  font-size: 30px;
+}
+.pagination{
+  margin-left: 37%;
+  margin-top: 1%;
+}
+.mani a{
+  margin-right: 50%;
+}
+.popular1{
+  display: flex;
+  justify-content: center;
+}
+.cards1{
+  width: 16%;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-right: 50px;
+  margin-top: 2%
+}
+.priceCard1{
+  display: flex;
+  justify-content: space-between;
+}
+.cards1 button{
+  width: 90%;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  height: 32px;
+}
+.popular2{
+  display: flex;
+  justify-content: center;
+}
+.cards2{
+  width: 16%;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-right: 50px;
+  margin-top: 2%
+}
+.priceCard2{
+  display: flex;
+  justify-content: space-between;
+}
+.cards2 button{
+  width: 90%;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  height: 32px;
+}
+.popular3{
+  display: flex;
+  justify-content: center;
+}
+.cards3{
+  width: 16%;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-right: 50px;
+  margin-top: 2%;
+}
+.priceCard3{
+  display: flex;
+  justify-content: space-between;
+}
+.cards3 button{
+  width: 90%;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  height: 32px;
+}
+.ugi1{
+ width: 210px; 
+}
+.ugi2{
+  width: 210px;
+}
+.ugi3{
+  width: 210px;
+}
+.ugi4{
+  width: 210px;
+}
+.ugi5{
+  width: 210px;
+}
+.ugi6{
+  width: 210px;
+}
+.ugi7{
+  width: 210px;
+}
+.ugi8{
+  width: 210px;
+}
+.ugi9{
+  width: 210px;
+}
+.ugi10{
+  width: 210px;
+}
+.ugi10{
+  width: 210px;
+}
+.ugi11{
+  width: 210px;
+}
+.ugi12{
+  width: 220px;
+}
+.cards3a{
+  width: 16%;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-right: 50px;
+  margin-top: 2%;
+}
+.priceCard3a{
+  display: flex;
+  justify-content: space-between;
+}
+.cards3a button{
+  width: 90%;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  height: 32px;
+}
+.cards3b{
+  width: 16%;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-right: 50px;
+  margin-top: 2%;
+}
+.priceCard3b{
+  display: flex;
+  justify-content: space-between;
+}
+.cards3b button{
+  width: 90%;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  height: 32px;
+}
+.airpods2{
+  margin-left: -12px;
+}
+.gug1{
+  width: 200px;
+}
+.body2 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:rgb(237, 233, 233);
+}
+.containergh {
+  width: 100%;
+  padding: 20px;
+  margin-left: 0px;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px white(0, 0, 0, 0.1);
+  height: 500px;
+}
+.product img {
+  height: auto;
+  border-radius: 8px;
+  width: 300px;
+}
+.product-info {
+  flex: 1;
+  margin-left: 170px;
+}
+.product-title {
+  font-size: 2rem;
+  margin: 0 0 10px;
+  color: #000000;
+}
+.product-description {
+  font-size: 30px;
+  color: #000000;
+  margin-top: 20px;
+}
+.product-price {
+  font-size: 40px;
+  color: #29d85a;
+  margin-top: 40px;
+}
+.buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #29d85a;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 30px;
+  margin-top: 30px;
+  transition: background 0.3s ease;
+  width: 300px;
+  text-align: center;
+}
+.buy-button:hover {
+  background-color: #2980b9;
+}
+.containerbh {
+  width: 100%;
+  padding: 20px;
+  margin-left: 0px;
+}
+.productr {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px white(0, 0, 0, 0.1);
+  height: 10000px;
+}
+.product-infor {
+  flex: 1;
+  margin-left: 170px;
+}
+.product-titler {
+  font-size: 2rem;
+  margin: 0 0 10px;
+  color: #000000;
+}
+.product-descriptionr {
+  font-size: 30px;
+  color: #000000;
+  margin-top: 20px;
+}
+.popular4{
+  display: flex;
+  justify-content: center;
+}
+.cards4{
+  width: 16%;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-right: 50px;
+  margin-top: 2%
+}
+.priceCard4{
+  display: flex;
+  justify-content: space-between;
+}
+.cards4 button{
+  width: 90%;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  height: 32px;
+}
+.popular5{
+  display: flex;
+  justify-content: center;
+}
+.cards5{
+  width: 16%;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-right: 50px;
+  margin-top: 2%
+}
+.priceCard5{
+  display: flex;
+  justify-content: space-between;
+}
+.cards5 button{
+  width: 90%;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  height: 32px;
+}
+.popular6{
+  display: flex;
+  justify-content: center;
+}
+.cards6{
+  width: 16%;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-right: 50px;
+  margin-top: 2%;
+}
+.priceCard6{
+  display: flex;
+  justify-content: space-between;
+}
+.cards6 button{
+  width: 90%;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  height: 32px;
+}
+.bug1{
+ width: 210px; 
+}
+.bug2{
+  width: 210px;
+}
+.bug3{
+  width: 210px;
+}
+.bug4{
+  width: 210px;
+}
+.bug5{
+  width: 210px;
+}
+.bug6{
+  width: 210px;
+}
+.bug7{
+  width: 210px;
+}
+.bug8{
+  width: 210px;
+}
+.bug9{
+  width: 210px;
+}
+.bug10{
+  width: 210px;
+}
+.bug11{
+  width: 210px;
+}
+.bug12{
+  width: 220px;
+}
